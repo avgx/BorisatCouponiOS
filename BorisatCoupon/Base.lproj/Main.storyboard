@@ -15,12 +15,36 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="v6o-jE-zmP" kind="relationship" relationship="rootViewController" id="eeB-6l-rwb"/>
+                        <segue destination="gwn-lM-phm" kind="relationship" relationship="rootViewController" id="rc7-HY-7Xc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x7I-60-Igm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1161" y="376"/>
+        </scene>
+        <!--SignUpViewController-->
+        <scene sceneID="CzS-Lw-eQH">
+            <objects>
+                <viewController id="gwn-lM-phm" userLabel="SignUpViewController" customClass="SignUpViewController" customModule="BorisatCoupon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ah-1k-LYY"/>
+                        <viewControllerLayoutGuide type="bottom" id="dcl-Uu-jup"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5dK-PL-Jo1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WHz-Cn-RFZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ff-lE-8uo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Zat-Do-GsI" customClass="SignUpModuleConfigurator" customModule="BorisatCoupon" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="gwn-lM-phm" id="wYg-Qu-gLq"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-383" y="-9"/>
         </scene>
         <!--SignInViewController-->
         <scene sceneID="4Mb-gS-NFq">
@@ -44,7 +68,7 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="-250" y="376"/>
+            <point key="canvasLocation" x="-383" y="661"/>
         </scene>
     </scenes>
 </document>
