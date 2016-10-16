@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		378F780789CF74FCD6E8D1D4 /* Pods_BorisatCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */; };
-		DF584AF61DB3771E00479224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584AF51DB3771E00479224 /* AppDelegate.swift */; };
 		DF584AF81DB3771E00479224 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584AF71DB3771E00479224 /* FirstViewController.swift */; };
 		DF584AFA1DB3771E00479224 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584AF91DB3771E00479224 /* SecondViewController.swift */; };
 		DF584AFD1DB3771E00479224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFB1DB3771E00479224 /* Main.storyboard */; };
 		DF584AFF1DB3771E00479224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFE1DB3771E00479224 /* Assets.xcassets */; };
 		DF584B021DB3771E00479224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584B001DB3771E00479224 /* LaunchScreen.storyboard */; };
 		DF584B0B1DB379C000479224 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF584B0A1DB379C000479224 /* GoogleService-Info.plist */; };
+		DF584B181DB37B4600479224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B171DB37B4600479224 /* AppDelegate.swift */; };
+		DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.release.xcconfig"; sourceTree = "<group>"; };
 		8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.debug.xcconfig"; sourceTree = "<group>"; };
 		DF584AF21DB3771E00479224 /* BorisatCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorisatCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF584AF51DB3771E00479224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF584AF71DB3771E00479224 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DF584AF91DB3771E00479224 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DF584AFC1DB3771E00479224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		DF584B011DB3771E00479224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF584B031DB3771E00479224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF584B0A1DB379C000479224 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF584B171DB37B4600479224 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateDependencies.swift; sourceTree = "<group>"; };
 		F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorisatCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,8 +84,8 @@
 		DF584AF41DB3771E00479224 /* BorisatCoupon */ = {
 			isa = PBXGroup;
 			children = (
+				DF584B151DB37B4600479224 /* Classes */,
 				DF584B091DB379C000479224 /* GoogleService */,
-				DF584AF51DB3771E00479224 /* AppDelegate.swift */,
 				DF584AF71DB3771E00479224 /* FirstViewController.swift */,
 				DF584AF91DB3771E00479224 /* SecondViewController.swift */,
 				DF584AFB1DB3771E00479224 /* Main.storyboard */,
@@ -100,6 +102,23 @@
 				DF584B0A1DB379C000479224 /* GoogleService-Info.plist */,
 			);
 			path = GoogleService;
+			sourceTree = "<group>";
+		};
+		DF584B151DB37B4600479224 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF584B161DB37B4600479224 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF584B161DB37B4600479224 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF584B171DB37B4600479224 /* AppDelegate.swift */,
+				DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF584B181DB37B4600479224 /* AppDelegate.swift in Sources */,
 				DF584AFA1DB3771E00479224 /* SecondViewController.swift in Sources */,
-				DF584AF61DB3771E00479224 /* AppDelegate.swift in Sources */,
 				DF584AF81DB3771E00479224 /* FirstViewController.swift in Sources */,
+				DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
