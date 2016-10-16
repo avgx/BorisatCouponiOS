@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A7C44B9DE7B3159A455CF9 /* SignInInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */; };
 		378F780789CF74FCD6E8D1D4 /* Pods_BorisatCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */; };
+		6F94E467FFB8B2AC694D49EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA18EB5968F96424716CA00 /* SignInRouter.swift */; };
+		8248836437BC8C7A31BE1F7E /* SignInRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */; };
+		925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */; };
+		A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */; };
+		C1DB47A792BFC0F06B102F4A /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */; };
 		DF584AFD1DB3771E00479224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFB1DB3771E00479224 /* Main.storyboard */; };
 		DF584AFF1DB3771E00479224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFE1DB3771E00479224 /* Assets.xcassets */; };
 		DF584B021DB3771E00479224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584B001DB3771E00479224 /* LaunchScreen.storyboard */; };
@@ -15,11 +21,25 @@
 		DF584B181DB37B4600479224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B171DB37B4600479224 /* AppDelegate.swift */; };
 		DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */; };
 		DF584B1F1DB38A4B00479224 /* UIColor+BCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B1E1DB38A4B00479224 /* UIColor+BCAdditions.swift */; };
+		E4500E6D3B16E8EEE83EF151 /* SignInViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42114692F53F84E1DF308E3B /* SignInViewInput.swift */; };
+		E9F681F76CC3470B5CCAF2BA /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */; };
+		ED471DC4130E381EBA0CE85D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */; };
+		F07166551890BB4204CC290B /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorInput.swift; sourceTree = "<group>"; };
+		0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
+		3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		42114692F53F84E1DF308E3B /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
 		4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.release.xcconfig"; sourceTree = "<group>"; };
+		68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.debug.xcconfig"; sourceTree = "<group>"; };
+		931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorOutput.swift; sourceTree = "<group>"; };
+		955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ACA18EB5968F96424716CA00 /* SignInRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouterInput.swift; sourceTree = "<group>"; };
 		DF584AF21DB3771E00479224 /* BorisatCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorisatCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF584AFC1DB3771E00479224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF584AFE1DB3771E00479224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +91,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00536AAA849750FA9E99F39B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5BB97813E88B45ED50A97992 /* StoryboardConfigurator */,
+				C36E324DB06C611D3AD8B689 /* Interactor */,
+				F60AFF5057EB159767C572E8 /* Presenter */,
+				8651275A87885E088FEB00D0 /* Router */,
+				B620E34321C9F8E5F7D742D9 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		198C202B6E0BD5F44381F0DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +110,14 @@
 				4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BB97813E88B45ED50A97992 /* StoryboardConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */,
+			);
+			path = StoryboardConfigurator;
 			sourceTree = "<group>";
 		};
 		7DD056F773703873B01F40CA /* Frameworks */ = {
@@ -88,11 +128,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8651275A87885E088FEB00D0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */,
+				ACA18EB5968F96424716CA00 /* SignInRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		9119C64C9B30F3DA6EF30648 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				00536AAA849750FA9E99F39B /* SignIn */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		B620E34321C9F8E5F7D742D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42114692F53F84E1DF308E3B /* SignInViewInput.swift */,
+				0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */,
+				955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C36E324DB06C611D3AD8B689 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */,
+				931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */,
+				3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		DF584AE91DB3771E00479224 = {
@@ -364,6 +434,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F60AFF5057EB159767C572E8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -491,6 +569,16 @@
 				DF584B181DB37B4600479224 /* AppDelegate.swift in Sources */,
 				DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */,
 				DF584B1F1DB38A4B00479224 /* UIColor+BCAdditions.swift in Sources */,
+				925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */,
+				A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */,
+				03A7C44B9DE7B3159A455CF9 /* SignInInteractorOutput.swift in Sources */,
+				C1DB47A792BFC0F06B102F4A /* SignInInteractor.swift in Sources */,
+				E9F681F76CC3470B5CCAF2BA /* SignInPresenter.swift in Sources */,
+				8248836437BC8C7A31BE1F7E /* SignInRouterInput.swift in Sources */,
+				6F94E467FFB8B2AC694D49EE /* SignInRouter.swift in Sources */,
+				E4500E6D3B16E8EEE83EF151 /* SignInViewInput.swift in Sources */,
+				F07166551890BB4204CC290B /* SignInViewOutput.swift in Sources */,
+				ED471DC4130E381EBA0CE85D /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

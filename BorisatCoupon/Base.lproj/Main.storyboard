@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1161" y="376"/>
         </scene>
-        <!--View Controller-->
+        <!--SignInViewController-->
         <scene sceneID="4Mb-gS-NFq">
             <objects>
-                <viewController id="v6o-jE-zmP" sceneMemberID="viewController">
+                <viewController id="v6o-jE-zmP" userLabel="SignInViewController" customClass="SignInViewController" customModule="BorisatCoupon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Km-5M-2Yb"/>
                         <viewControllerLayoutGuide type="bottom" id="LJe-cy-frX"/>
@@ -38,6 +38,11 @@
                     <navigationItem key="navigationItem" id="oc8-ZE-axz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSc-fJ-LGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ZtX-c1-qKx" customClass="SignInModuleConfigurator" customModule="BorisatCoupon" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="v6o-jE-zmP" id="Bos-mC-yuq"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-250" y="376"/>
         </scene>
