@@ -10,4 +10,6 @@ import Foundation
 
 protocol SignUpInteractorInput: class {
 
+    func signUp(name: String, email: String, password: String)
+    
 }

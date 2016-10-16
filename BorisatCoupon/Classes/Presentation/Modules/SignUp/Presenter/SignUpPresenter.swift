@@ -14,10 +14,15 @@ class SignUpPresenter: SignUpViewOutput, SignUpInteractorOutput {
 
     // MARK: SignUpViewOutput
 
-    func viewIsReady() {
-
+    func signInButtonDidTap() {
+        
     }
-
+    
+    func signUpButtonDidTap() {
+        let input = view.getInput()
+        interactor.signUp(name: input.name, email: input.email, password: input.password)
+    }
+    
     // MARK: SignUpInteractorOutput
     
 }

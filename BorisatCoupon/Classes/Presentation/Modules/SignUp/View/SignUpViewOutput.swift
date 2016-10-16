@@ -8,6 +8,8 @@
 
 protocol SignUpViewOutput: class {
 
-    func viewIsReady()
+    func signInButtonDidTap()
+    
+    func signUpButtonDidTap()
 
 }

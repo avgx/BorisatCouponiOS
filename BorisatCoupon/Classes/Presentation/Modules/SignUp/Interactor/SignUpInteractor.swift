@@ -10,4 +10,9 @@ class SignUpInteractor: SignUpInteractorInput {
 
     weak var output: SignUpInteractorOutput!
 
+    // MARK: SignUpInteractorInput
+    
+    func signUp(name: String, email: String, password: String) {
+        
+    }
 }

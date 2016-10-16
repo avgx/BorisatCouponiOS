@@ -8,4 +8,6 @@
 
 protocol SignUpViewInput: class {
 
+    func getInput() -> (name:String, email: String, password: String)
+    
 }
