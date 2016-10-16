@@ -29,6 +29,33 @@
 		DF584B171DB37B4600479224 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateDependencies.swift; sourceTree = "<group>"; };
 		DF584B1E1DB38A4B00479224 /* UIColor+BCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+BCAdditions.swift"; sourceTree = "<group>"; };
+		DF584C731DB3B16800479224 /* interactor.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor.swift.liquid; sourceTree = "<group>"; };
+		DF584C741DB3B16800479224 /* interactor_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C751DB3B16800479224 /* interactor_output.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_output.swift.liquid; sourceTree = "<group>"; };
+		DF584C771DB3B16800479224 /* presenter.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = presenter.swift.liquid; sourceTree = "<group>"; };
+		DF584C791DB3B16800479224 /* router.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = router.swift.liquid; sourceTree = "<group>"; };
+		DF584C7A1DB3B16800479224 /* router_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = router_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C7C1DB3B16800479224 /* storyboard_configurator.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = storyboard_configurator.swift.liquid; sourceTree = "<group>"; };
+		DF584C7E1DB3B16800479224 /* view_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C7F1DB3B16800479224 /* view_output.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_output.swift.liquid; sourceTree = "<group>"; };
+		DF584C801DB3B16800479224 /* viewcontroller.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = viewcontroller.swift.liquid; sourceTree = "<group>"; };
+		DF584C811DB3B16800479224 /* my_storyboard_swift_viper.rambaspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = my_storyboard_swift_viper.rambaspec; sourceTree = "<group>"; };
+		DF584C851DB3B16800479224 /* builder.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = builder.swift.liquid; sourceTree = "<group>"; };
+		DF584C871DB3B16800479224 /* interactor.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor.swift.liquid; sourceTree = "<group>"; };
+		DF584C881DB3B16800479224 /* interactor_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C891DB3B16800479224 /* interactor_output.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_output.swift.liquid; sourceTree = "<group>"; };
+		DF584C8B1DB3B16800479224 /* presenter.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = presenter.swift.liquid; sourceTree = "<group>"; };
+		DF584C8D1DB3B16800479224 /* router.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = router.swift.liquid; sourceTree = "<group>"; };
+		DF584C8E1DB3B16800479224 /* router_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = router_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C901DB3B16800479224 /* view_input.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_input.swift.liquid; sourceTree = "<group>"; };
+		DF584C911DB3B16800479224 /* view_output.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_output.swift.liquid; sourceTree = "<group>"; };
+		DF584C921DB3B16800479224 /* viewcontroller.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = viewcontroller.swift.liquid; sourceTree = "<group>"; };
+		DF584C931DB3B16800479224 /* my_swift_viper.rambaspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = my_swift_viper.rambaspec; sourceTree = "<group>"; };
+		DF584C961DB3B16800479224 /* builder_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = builder_tests.swift.liquid; sourceTree = "<group>"; };
+		DF584C981DB3B16800479224 /* interactor_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_tests.swift.liquid; sourceTree = "<group>"; };
+		DF584C9A1DB3B16800479224 /* presenter_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = presenter_tests.swift.liquid; sourceTree = "<group>"; };
+		DF584C9C1DB3B16800479224 /* router_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = router_tests.swift.liquid; sourceTree = "<group>"; };
+		DF584C9E1DB3B16800479224 /* view_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_tests.swift.liquid; sourceTree = "<group>"; };
 		F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorisatCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,13 +88,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9119C64C9B30F3DA6EF30648 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		DF584AE91DB3771E00479224 = {
 			isa = PBXGroup;
 			children = (
 				DF584AF41DB3771E00479224 /* BorisatCoupon */,
-				DF584AF31DB3771E00479224 /* Products */,
-				198C202B6E0BD5F44381F0DA /* Pods */,
 				7DD056F773703873B01F40CA /* Frameworks */,
+				198C202B6E0BD5F44381F0DA /* Pods */,
+				DF584AF31DB3771E00479224 /* Products */,
+				DF584C6F1DB3B16800479224 /* Templates */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,8 +139,8 @@
 		DF584B151DB37B4600479224 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DF584B211DB3A90700479224 /* Presentation */,
 				DF584B161DB37B4600479224 /* AppDelegate */,
+				DF584B211DB3A90700479224 /* Presentation */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -130,8 +165,203 @@
 		DF584B211DB3A90700479224 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				9119C64C9B30F3DA6EF30648 /* Modules */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DF584C6F1DB3B16800479224 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C701DB3B16800479224 /* my_storyboard_swift_viper */,
+				DF584C821DB3B16800479224 /* my_swift_viper */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		DF584C701DB3B16800479224 /* my_storyboard_swift_viper */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C711DB3B16800479224 /* Code */,
+				DF584C811DB3B16800479224 /* my_storyboard_swift_viper.rambaspec */,
+			);
+			path = my_storyboard_swift_viper;
+			sourceTree = "<group>";
+		};
+		DF584C711DB3B16800479224 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C721DB3B16800479224 /* Interactor */,
+				DF584C761DB3B16800479224 /* Presenter */,
+				DF584C781DB3B16800479224 /* Router */,
+				DF584C7B1DB3B16800479224 /* StoryboardConfigurator */,
+				DF584C7D1DB3B16800479224 /* View */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		DF584C721DB3B16800479224 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C731DB3B16800479224 /* interactor.swift.liquid */,
+				DF584C741DB3B16800479224 /* interactor_input.swift.liquid */,
+				DF584C751DB3B16800479224 /* interactor_output.swift.liquid */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DF584C761DB3B16800479224 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C771DB3B16800479224 /* presenter.swift.liquid */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DF584C781DB3B16800479224 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C791DB3B16800479224 /* router.swift.liquid */,
+				DF584C7A1DB3B16800479224 /* router_input.swift.liquid */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DF584C7B1DB3B16800479224 /* StoryboardConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C7C1DB3B16800479224 /* storyboard_configurator.swift.liquid */,
+			);
+			path = StoryboardConfigurator;
+			sourceTree = "<group>";
+		};
+		DF584C7D1DB3B16800479224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C7E1DB3B16800479224 /* view_input.swift.liquid */,
+				DF584C7F1DB3B16800479224 /* view_output.swift.liquid */,
+				DF584C801DB3B16800479224 /* viewcontroller.swift.liquid */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF584C821DB3B16800479224 /* my_swift_viper */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C831DB3B16800479224 /* Code */,
+				DF584C931DB3B16800479224 /* my_swift_viper.rambaspec */,
+				DF584C941DB3B16800479224 /* Tests */,
+			);
+			path = my_swift_viper;
+			sourceTree = "<group>";
+		};
+		DF584C831DB3B16800479224 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C841DB3B16800479224 /* Builder */,
+				DF584C861DB3B16800479224 /* Interactor */,
+				DF584C8A1DB3B16800479224 /* Presenter */,
+				DF584C8C1DB3B16800479224 /* Router */,
+				DF584C8F1DB3B16800479224 /* View */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		DF584C841DB3B16800479224 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C851DB3B16800479224 /* builder.swift.liquid */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		DF584C861DB3B16800479224 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C871DB3B16800479224 /* interactor.swift.liquid */,
+				DF584C881DB3B16800479224 /* interactor_input.swift.liquid */,
+				DF584C891DB3B16800479224 /* interactor_output.swift.liquid */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DF584C8A1DB3B16800479224 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C8B1DB3B16800479224 /* presenter.swift.liquid */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DF584C8C1DB3B16800479224 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C8D1DB3B16800479224 /* router.swift.liquid */,
+				DF584C8E1DB3B16800479224 /* router_input.swift.liquid */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DF584C8F1DB3B16800479224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C901DB3B16800479224 /* view_input.swift.liquid */,
+				DF584C911DB3B16800479224 /* view_output.swift.liquid */,
+				DF584C921DB3B16800479224 /* viewcontroller.swift.liquid */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF584C941DB3B16800479224 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C951DB3B16800479224 /* Builder */,
+				DF584C971DB3B16800479224 /* Interactor */,
+				DF584C991DB3B16800479224 /* Presenter */,
+				DF584C9B1DB3B16800479224 /* Router */,
+				DF584C9D1DB3B16800479224 /* View */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DF584C951DB3B16800479224 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C961DB3B16800479224 /* builder_tests.swift.liquid */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		DF584C971DB3B16800479224 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C981DB3B16800479224 /* interactor_tests.swift.liquid */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DF584C991DB3B16800479224 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C9A1DB3B16800479224 /* presenter_tests.swift.liquid */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DF584C9B1DB3B16800479224 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C9C1DB3B16800479224 /* router_tests.swift.liquid */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DF584C9D1DB3B16800479224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF584C9E1DB3B16800479224 /* view_tests.swift.liquid */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
