@@ -11,6 +11,15 @@ import Firebase
 class AppStartupConfigurator {
     
     func configure() {
+        configureFirebase()
+        configureApperance()
+    }
+    
+    private func configureFirebase() {
         FIRApp.configure()
+    }
+    
+    private func configureApperance() {
+        UINavigationBar.appearance().barTintColor = UIColor.bcAzure
     }
 }
