@@ -59,6 +59,7 @@
 		ACA18EB5968F96424716CA00 /* SignInRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
 		B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouterInput.swift; sourceTree = "<group>"; };
+		DF3C89EB1DB5403800AA0187 /* BorisatCoupon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BorisatCoupon.entitlements; sourceTree = "<group>"; };
 		DF584AF21DB3771E00479224 /* BorisatCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorisatCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF584AFC1DB3771E00479224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF584AFE1DB3771E00479224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -258,6 +259,7 @@
 		DF584AF41DB3771E00479224 /* BorisatCoupon */ = {
 			isa = PBXGroup;
 			children = (
+				DF3C89EB1DB5403800AA0187 /* BorisatCoupon.entitlements */,
 				DF584B1D1DB38A4B00479224 /* Theme */,
 				DF584B151DB37B4600479224 /* Classes */,
 				DF584B091DB379C000479224 /* GoogleService */,
@@ -574,7 +576,13 @@
 				TargetAttributes = {
 					DF584AF11DB3771E00479224 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PWSQ8TH82A;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -808,6 +816,8 @@
 			baseConfigurationReference = 8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BorisatCoupon/BorisatCoupon.entitlements;
+				DEVELOPMENT_TEAM = PWSQ8TH82A;
 				INFOPLIST_FILE = BorisatCoupon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borisatcoupon.BorisatCoupon;
@@ -821,6 +831,8 @@
 			baseConfigurationReference = 4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BorisatCoupon/BorisatCoupon.entitlements;
+				DEVELOPMENT_TEAM = PWSQ8TH82A;
 				INFOPLIST_FILE = BorisatCoupon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borisatcoupon.BorisatCoupon;
