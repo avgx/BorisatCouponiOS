@@ -6,7 +6,7 @@
 //  Copyright © 2016 BorisatCoupon. All rights reserved.
 //
 
-protocol SignUpViewInput: class {
+protocol SignUpViewInput: class, ErrorPresenter {
 
     func getInput() -> (name:String, email: String, password: String)
     

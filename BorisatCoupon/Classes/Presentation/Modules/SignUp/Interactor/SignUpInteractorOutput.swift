@@ -9,5 +9,6 @@
 import Foundation
 
 protocol SignUpInteractorOutput: class {
-
+    func signUpDidSuccess()
+    func signUpDidFail(withError error: Error)
 }

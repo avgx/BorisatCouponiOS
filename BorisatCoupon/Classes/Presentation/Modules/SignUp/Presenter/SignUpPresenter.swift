@@ -25,4 +25,11 @@ class SignUpPresenter: SignUpViewOutput, SignUpInteractorOutput {
     
     // MARK: SignUpInteractorOutput
     
+    func signUpDidFail(withError error: Error) {
+        view.show(error: error)
+    }
+    
+    func signUpDidSuccess() {
+        
+    }
 }
