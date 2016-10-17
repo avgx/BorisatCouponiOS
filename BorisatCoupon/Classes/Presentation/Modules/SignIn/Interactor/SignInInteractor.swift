@@ -6,8 +6,19 @@
 //  Copyright © 2016 BorisatCoupon. All rights reserved.
 //
 
+import FirebaseAuth
+
 class SignInInteractor: SignInInteractorInput {
 
     weak var output: SignInInteractorOutput!
 
+    final func signIn(withEmail email: String, password: String) {
+        FIRAuth.auth()?.signIn(withEmail: email, password: password) { [weak output] (user, error) in
+            if let error = error {
+                output?.signInDidFail(withError: error)
+            } else {
+                output?.signInDidSuccess()
+            }
+        }
+    }
 }

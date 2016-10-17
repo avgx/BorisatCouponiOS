@@ -9,5 +9,5 @@
 import Foundation
 
 protocol SignInInteractorInput: class {
-
+    func signIn(withEmail email: String, password: String)
 }

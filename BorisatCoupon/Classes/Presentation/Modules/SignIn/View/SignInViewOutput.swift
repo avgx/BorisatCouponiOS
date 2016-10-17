@@ -7,7 +7,6 @@
 //
 
 protocol SignInViewOutput: class {
-
     func viewIsReady()
-
+    func signInButtonDidTap()
 }

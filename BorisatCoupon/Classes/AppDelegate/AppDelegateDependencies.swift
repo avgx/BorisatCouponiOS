@@ -21,5 +21,7 @@ class AppStartupConfigurator {
     
     private func configureApperance() {
         UINavigationBar.appearance().barTintColor = UIColor.bcAzure
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().barStyle = .black
     }
 }

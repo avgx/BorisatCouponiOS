@@ -7,8 +7,6 @@
 //
 
 protocol SignUpViewOutput: class {
-
-    func signInButtonDidTap()
     
     func signUpButtonDidTap()
 

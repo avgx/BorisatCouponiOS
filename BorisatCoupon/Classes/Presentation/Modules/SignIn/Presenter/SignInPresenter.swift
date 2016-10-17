@@ -18,6 +18,20 @@ class SignInPresenter: SignInViewOutput, SignInInteractorOutput {
 
     }
 
+    func signInButtonDidTap() {
+        let input = view.getInput()
+        interactor.signIn(withEmail: input.email, password: input.password)
+
+    }
+    
     // MARK: SignInInteractorOutput
+    
+    func signInDidFail(withError error: Error) {
+        view.show(error: error)
+    }
+    
+    func signInDidSuccess() {
+        print("signInDidSuccess")
+    }
     
 }

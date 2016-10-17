@@ -39,10 +39,6 @@ class SignUpViewController: UIViewController, SignUpViewInput, UITextFieldDelega
     @IBAction func signUpButtonDidTap(_ sender: AnyObject) {
         signUpActionDidTrigger()
     }
-    
-    @IBAction func signInButtonDidTap(_ sender: AnyObject) {
-        output.signInButtonDidTap()
-    }
 
     // MARK: UITextFieldDelegate
 

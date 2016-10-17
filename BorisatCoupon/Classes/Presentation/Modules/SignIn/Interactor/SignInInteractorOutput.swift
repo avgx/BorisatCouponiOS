@@ -9,5 +9,6 @@
 import Foundation
 
 protocol SignInInteractorOutput: class {
-
+    func signInDidSuccess()
+    func signInDidFail(withError error: Error)
 }
