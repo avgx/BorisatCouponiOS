@@ -12,11 +12,19 @@
 		09188B0F005AA03DFE289227 /* SignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F12AB06AF93A2B5E3C28 /* SignUpInteractorInput.swift */; };
 		0DC87A976D05C4B9AAE04E08 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51D1846CD2BE149D060667 /* SignUpRouter.swift */; };
 		11941CE955DB9F176FB4D481 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */; };
+		1747B41011548AF06EAEF0CE /* StartupViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */; };
 		378F780789CF74FCD6E8D1D4 /* Pods_BorisatCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */; };
+		412C3DABF07607B6ACAA99E6 /* StartupStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */; };
+		4E6472FA3FB4767CA85619F9 /* StartupInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */; };
+		562B1E3BCD57DAFE86ED6ACE /* StartupRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D818104E9E0C083284270 /* StartupRouterInput.swift */; };
 		5CC4DF1ED8E68876AD885228 /* SignUpRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17735A43AC735A63BF4E06F /* SignUpRouterInput.swift */; };
 		637F3E495DFDECC1B803F491 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63C073DB7FA8B7764535260 /* SignUpViewController.swift */; };
+		674BD26C6DD09266C681CFE2 /* StartupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EE6456F76909225E9C3A1 /* StartupRouter.swift */; };
 		6F94E467FFB8B2AC694D49EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA18EB5968F96424716CA00 /* SignInRouter.swift */; };
+		75BDD9A520E413642ED878FC /* StartupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907C3074FC9920260537DB /* StartupInteractor.swift */; };
+		793FB23617D6EB95E88E0A29 /* StartupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7041CF1DB536697C911A96 /* StartupPresenter.swift */; };
 		8248836437BC8C7A31BE1F7E /* SignInRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */; };
+		86A60567E1F24B1A31BEE02F /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */; };
 		925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */; };
 		95BA18A8F96D0B8F9B93732F /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C291C3D46FCC7E28D671D8 /* SignUpPresenter.swift */; };
 		96F36DFAFA1203A8DCA234E9 /* SignUpStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B4F612A92D833ACCA7F68 /* SignUpStoryboardConfigurator.swift */; };
@@ -24,6 +32,8 @@
 		9F5CF64938DC1FC37591FFF5 /* SignUpViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4A846FDC1B1BA8BA34FB8 /* SignUpViewOutput.swift */; };
 		A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */; };
 		C1DB47A792BFC0F06B102F4A /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */; };
+		DF3C89ED1DB6714E00AA0187 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EC1DB6714E00AA0187 /* Constants.swift */; };
+		DF3C89EF1DB6733300AA0187 /* RootWindowSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EE1DB6733300AA0187 /* RootWindowSegue.swift */; };
 		DF584AFD1DB3771E00479224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFB1DB3771E00479224 /* Main.storyboard */; };
 		DF584AFF1DB3771E00479224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFE1DB3771E00479224 /* Assets.xcassets */; };
 		DF584B021DB3771E00479224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584B001DB3771E00479224 /* LaunchScreen.storyboard */; };
@@ -33,7 +43,9 @@
 		DF584B1F1DB38A4B00479224 /* UIColor+BCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B1E1DB38A4B00479224 /* UIColor+BCAdditions.swift */; };
 		DF615C4B1DB5347E0014EB1B /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF615C4A1DB5347E0014EB1B /* ErrorPresenter.swift */; };
 		E4500E6D3B16E8EEE83EF151 /* SignInViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42114692F53F84E1DF308E3B /* SignInViewInput.swift */; };
+		E9D584FED0431ED263E03F79 /* StartupViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */; };
 		E9F681F76CC3470B5CCAF2BA /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */; };
+		EA0DBD5F794720FABE85D636 /* StartupInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */; };
 		ED471DC4130E381EBA0CE85D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */; };
 		F07166551890BB4204CC290B /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */; };
 /* End PBXBuildFile section */
@@ -42,24 +54,36 @@
 		02C4A846FDC1B1BA8BA34FB8 /* SignUpViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewOutput.swift; sourceTree = "<group>"; };
 		0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorInput.swift; sourceTree = "<group>"; };
 		0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
+		11907C3074FC9920260537DB /* StartupInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractor.swift; sourceTree = "<group>"; };
 		1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
 		3011F12AB06AF93A2B5E3C28 /* SignUpInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorInput.swift; sourceTree = "<group>"; };
 		3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		3C3D818104E9E0C083284270 /* StartupRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupRouterInput.swift; sourceTree = "<group>"; };
 		42114692F53F84E1DF308E3B /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
+		442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		4A51D1846CD2BE149D060667 /* SignUpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
 		4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.release.xcconfig"; sourceTree = "<group>"; };
+		4E7041CF1DB536697C911A96 /* StartupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupPresenter.swift; sourceTree = "<group>"; };
+		573EE6456F76909225E9C3A1 /* StartupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupRouter.swift; sourceTree = "<group>"; };
+		5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorInput.swift; sourceTree = "<group>"; };
+		5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewOutput.swift; sourceTree = "<group>"; };
 		64CFA77687AC9EF5C64964E6 /* SignUpViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewInput.swift; sourceTree = "<group>"; };
 		68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInStoryboardConfigurator.swift; sourceTree = "<group>"; };
+		697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewInput.swift; sourceTree = "<group>"; };
 		79E99F89737A82ED6A068F33 /* SignUpInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorOutput.swift; sourceTree = "<group>"; };
 		8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.debug.xcconfig"; sourceTree = "<group>"; };
+		8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorOutput.swift; sourceTree = "<group>"; };
 		931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorOutput.swift; sourceTree = "<group>"; };
 		955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
 		A17735A43AC735A63BF4E06F /* SignUpRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpRouterInput.swift; sourceTree = "<group>"; };
 		A63C073DB7FA8B7764535260 /* SignUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ACA18EB5968F96424716CA00 /* SignInRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
 		B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouterInput.swift; sourceTree = "<group>"; };
 		DF3C89EB1DB5403800AA0187 /* BorisatCoupon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BorisatCoupon.entitlements; sourceTree = "<group>"; };
+		DF3C89EC1DB6714E00AA0187 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF3C89EE1DB6733300AA0187 /* RootWindowSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWindowSegue.swift; sourceTree = "<group>"; };
 		DF584AF21DB3771E00479224 /* BorisatCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorisatCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF584AFC1DB3771E00479224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF584AFE1DB3771E00479224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +171,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2258660DE8EE32CE4B42C3E2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4E7041CF1DB536697C911A96 /* StartupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		3C188284CB929FF0A3C20ABB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +187,18 @@
 				A63C073DB7FA8B7764535260 /* SignUpViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5002B083CAB1963EC0F55D4F /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				F6026716F81B4AA99C7A8910 /* StoryboardConfigurator */,
+				5CA460CDC3275AA1560C9118 /* Interactor */,
+				2258660DE8EE32CE4B42C3E2 /* Presenter */,
+				B1EE1E4370FFFCAC14E1127F /* Router */,
+				E3C4D445C211279DC9CE7646 /* View */,
+			);
+			path = Startup;
 			sourceTree = "<group>";
 		};
 		52FC3FDF4C8A817BBC31A7E7 /* StoryboardConfigurator */ = {
@@ -171,6 +215,16 @@
 				68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */,
 			);
 			path = StoryboardConfigurator;
+			sourceTree = "<group>";
+		};
+		5CA460CDC3275AA1560C9118 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */,
+				8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */,
+				11907C3074FC9920260537DB /* StartupInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		7462891D3635B274B8DDCCF9 /* Presenter */ = {
@@ -203,6 +257,7 @@
 			children = (
 				00536AAA849750FA9E99F39B /* SignIn */,
 				0B41718858641D0FF514B7ED /* SignUp */,
+				5002B083CAB1963EC0F55D4F /* Startup */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -215,6 +270,15 @@
 				1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1EE1E4370FFFCAC14E1127F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3C3D818104E9E0C083284270 /* StartupRouterInput.swift */,
+				573EE6456F76909225E9C3A1 /* StartupRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		B620E34321C9F8E5F7D742D9 /* View */ = {
@@ -512,6 +576,8 @@
 			isa = PBXGroup;
 			children = (
 				DF615C491DB534720014EB1B /* Error */,
+				DF3C89EC1DB6714E00AA0187 /* Constants.swift */,
+				DF3C89EE1DB6733300AA0187 /* RootWindowSegue.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -522,6 +588,24 @@
 				DF615C4A1DB5347E0014EB1B /* ErrorPresenter.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		E3C4D445C211279DC9CE7646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */,
+				5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */,
+				9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6026716F81B4AA99C7A8910 /* StoryboardConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */,
+			);
+			path = StoryboardConfigurator;
 			sourceTree = "<group>";
 		};
 		F60AFF5057EB159767C572E8 /* Presenter */ = {
@@ -673,6 +757,7 @@
 			files = (
 				DF584B181DB37B4600479224 /* AppDelegate.swift in Sources */,
 				DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */,
+				DF3C89EF1DB6733300AA0187 /* RootWindowSegue.swift in Sources */,
 				DF584B1F1DB38A4B00479224 /* UIColor+BCAdditions.swift in Sources */,
 				925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */,
 				A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */,
@@ -695,6 +780,17 @@
 				97B5DA1FDAD3521C9440CC2C /* SignUpViewInput.swift in Sources */,
 				9F5CF64938DC1FC37591FFF5 /* SignUpViewOutput.swift in Sources */,
 				637F3E495DFDECC1B803F491 /* SignUpViewController.swift in Sources */,
+				412C3DABF07607B6ACAA99E6 /* StartupStoryboardConfigurator.swift in Sources */,
+				DF3C89ED1DB6714E00AA0187 /* Constants.swift in Sources */,
+				4E6472FA3FB4767CA85619F9 /* StartupInteractorInput.swift in Sources */,
+				EA0DBD5F794720FABE85D636 /* StartupInteractorOutput.swift in Sources */,
+				75BDD9A520E413642ED878FC /* StartupInteractor.swift in Sources */,
+				793FB23617D6EB95E88E0A29 /* StartupPresenter.swift in Sources */,
+				562B1E3BCD57DAFE86ED6ACE /* StartupRouterInput.swift in Sources */,
+				674BD26C6DD09266C681CFE2 /* StartupRouter.swift in Sources */,
+				E9D584FED0431ED263E03F79 /* StartupViewInput.swift in Sources */,
+				1747B41011548AF06EAEF0CE /* StartupViewOutput.swift in Sources */,
+				86A60567E1F24B1A31BEE02F /* StartupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

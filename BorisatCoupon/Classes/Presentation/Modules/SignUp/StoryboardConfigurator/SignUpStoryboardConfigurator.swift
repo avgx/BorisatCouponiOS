@@ -10,7 +10,7 @@ import UIKit
 
 class SignUpModuleConfigurator : NSObject {
 
-    @IBOutlet var viewController: SignUpViewController!
+    @IBOutlet weak var viewController: SignUpViewController!
 
     override func awakeFromNib() {
         super.awakeFromNib()

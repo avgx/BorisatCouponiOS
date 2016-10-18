@@ -1,16 +1,16 @@
 //
-//  SignInSignInStoryboardConfigurator.swift
+//  StartupStartupStoryboardConfigurator.swift
 //  BorisatCoupon
 //
-//  Created by German Saprykin on 16/10/2016.
+//  Created by German Saprykin on 18/10/2016.
 //  Copyright © 2016 BorisatCoupon. All rights reserved.
 //
 
 import UIKit
 
-class SignInModuleConfigurator : NSObject {
+class StartupModuleConfigurator : NSObject {
 
-    @IBOutlet weak var viewController: SignInViewController!
+    @IBOutlet weak var viewController: StartupViewController!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -18,14 +18,14 @@ class SignInModuleConfigurator : NSObject {
     }
 
     private func configure() {
-        let router = SignInRouter()
+        let router = StartupRouter()
         router.viewController = viewController
 
-        let presenter = SignInPresenter()
+        let presenter = StartupPresenter()
         presenter.view = viewController
         presenter.router = router
 
-        let interactor = SignInInteractor()
+        let interactor = StartupInteractor()
         interactor.output = presenter
 
         presenter.interactor = interactor

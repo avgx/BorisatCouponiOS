@@ -10,7 +10,7 @@ import UIKit
 
 class {{ module_info.name }}ModuleConfigurator : NSObject {
 
-    @IBOutlet var viewController: {{ module_info.name }}ViewController!
+    @IBOutlet weak var viewController: {{ module_info.name }}ViewController!
 
     override func awakeFromNib() {
         super.awakeFromNib()
