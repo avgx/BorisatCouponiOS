@@ -8,4 +8,8 @@
 
 class SignUpRouter: SignUpRouterInput {
     weak var viewController: SignUpViewController!
+    
+    func navigateToEmailVerification() {
+        viewController.performSegue(withIdentifier: Storyboard.Main.SignUp.Segues.EmailVerification, sender: nil)
+    }
 }

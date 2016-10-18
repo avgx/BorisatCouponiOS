@@ -11,27 +11,34 @@
 		03A7C44B9DE7B3159A455CF9 /* SignInInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */; };
 		09188B0F005AA03DFE289227 /* SignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F12AB06AF93A2B5E3C28 /* SignUpInteractorInput.swift */; };
 		0DC87A976D05C4B9AAE04E08 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51D1846CD2BE149D060667 /* SignUpRouter.swift */; };
+		0EB68398726FD1D191EEE9E2 /* EmailVerificationStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D7AE035D6A7BF609BCE9 /* EmailVerificationStoryboardConfigurator.swift */; };
 		11941CE955DB9F176FB4D481 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */; };
 		1747B41011548AF06EAEF0CE /* StartupViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */; };
+		2943EDA9E59B2A8994C2A39F /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4758CBF424F750A776B081 /* EmailVerificationViewController.swift */; };
 		378F780789CF74FCD6E8D1D4 /* Pods_BorisatCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */; };
 		412C3DABF07607B6ACAA99E6 /* StartupStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */; };
 		4E6472FA3FB4767CA85619F9 /* StartupInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */; };
 		562B1E3BCD57DAFE86ED6ACE /* StartupRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D818104E9E0C083284270 /* StartupRouterInput.swift */; };
 		5CC4DF1ED8E68876AD885228 /* SignUpRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17735A43AC735A63BF4E06F /* SignUpRouterInput.swift */; };
+		60173A3BDD95A10B18672DD8 /* EmailVerificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87957BFD5035BBCD8426BFEA /* EmailVerificationRouter.swift */; };
 		637F3E495DFDECC1B803F491 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63C073DB7FA8B7764535260 /* SignUpViewController.swift */; };
 		674BD26C6DD09266C681CFE2 /* StartupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EE6456F76909225E9C3A1 /* StartupRouter.swift */; };
+		694EF907143B3B0DF009BBD4 /* EmailVerificationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57A005300B723DBE2AB5BBA /* EmailVerificationViewInput.swift */; };
 		6F94E467FFB8B2AC694D49EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA18EB5968F96424716CA00 /* SignInRouter.swift */; };
 		75BDD9A520E413642ED878FC /* StartupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907C3074FC9920260537DB /* StartupInteractor.swift */; };
 		793FB23617D6EB95E88E0A29 /* StartupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7041CF1DB536697C911A96 /* StartupPresenter.swift */; };
 		8248836437BC8C7A31BE1F7E /* SignInRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */; };
 		86A60567E1F24B1A31BEE02F /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */; };
 		925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */; };
+		9262D6E00B2BB230E3BB2D3B /* EmailVerificationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43213D7FAD30F715D63261F0 /* EmailVerificationInteractorInput.swift */; };
+		9464FD33027D43D48BF0CD16 /* EmailVerificationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1311C86ECD0A2AC14D1B689 /* EmailVerificationViewOutput.swift */; };
 		95BA18A8F96D0B8F9B93732F /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C291C3D46FCC7E28D671D8 /* SignUpPresenter.swift */; };
 		96F36DFAFA1203A8DCA234E9 /* SignUpStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B4F612A92D833ACCA7F68 /* SignUpStoryboardConfigurator.swift */; };
 		97B5DA1FDAD3521C9440CC2C /* SignUpViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFA77687AC9EF5C64964E6 /* SignUpViewInput.swift */; };
 		9F5CF64938DC1FC37591FFF5 /* SignUpViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4A846FDC1B1BA8BA34FB8 /* SignUpViewOutput.swift */; };
 		A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */; };
 		C1DB47A792BFC0F06B102F4A /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */; };
+		C4FA39B9A8DEA7EA34C1C747 /* EmailVerificationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422FD00FC4E1D79D8774440 /* EmailVerificationInteractor.swift */; };
 		DF3C89ED1DB6714E00AA0187 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EC1DB6714E00AA0187 /* Constants.swift */; };
 		DF3C89EF1DB6733300AA0187 /* RootWindowSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EE1DB6733300AA0187 /* RootWindowSegue.swift */; };
 		DF584AFD1DB3771E00479224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFB1DB3771E00479224 /* Main.storyboard */; };
@@ -42,12 +49,15 @@
 		DF584B1A1DB37B6100479224 /* AppDelegateDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B191DB37B6100479224 /* AppDelegateDependencies.swift */; };
 		DF584B1F1DB38A4B00479224 /* UIColor+BCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF584B1E1DB38A4B00479224 /* UIColor+BCAdditions.swift */; };
 		DF615C4B1DB5347E0014EB1B /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF615C4A1DB5347E0014EB1B /* ErrorPresenter.swift */; };
+		E33A593A790B172594F82B58 /* EmailVerificationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138125A49CE582973EB03929 /* EmailVerificationRouterInput.swift */; };
 		E4500E6D3B16E8EEE83EF151 /* SignInViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42114692F53F84E1DF308E3B /* SignInViewInput.swift */; };
+		E8D8AE9ED51C87A24080D0AF /* EmailVerificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D8878F779EA16AD393EE /* EmailVerificationPresenter.swift */; };
 		E9D584FED0431ED263E03F79 /* StartupViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */; };
 		E9F681F76CC3470B5CCAF2BA /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */; };
 		EA0DBD5F794720FABE85D636 /* StartupInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */; };
 		ED471DC4130E381EBA0CE85D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */; };
 		F07166551890BB4204CC290B /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */; };
+		FECA052ADF57C1F9CF11CF81 /* EmailVerificationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D00E6FA2EBB04C16339E8 /* EmailVerificationInteractorOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,15 +65,19 @@
 		0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorInput.swift; sourceTree = "<group>"; };
 		0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
 		11907C3074FC9920260537DB /* StartupInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractor.swift; sourceTree = "<group>"; };
+		138125A49CE582973EB03929 /* EmailVerificationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationRouterInput.swift; sourceTree = "<group>"; };
 		1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		2C49D7AE035D6A7BF609BCE9 /* EmailVerificationStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		3011F12AB06AF93A2B5E3C28 /* SignUpInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorInput.swift; sourceTree = "<group>"; };
 		3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
 		3C3D818104E9E0C083284270 /* StartupRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupRouterInput.swift; sourceTree = "<group>"; };
 		42114692F53F84E1DF308E3B /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
+		43213D7FAD30F715D63261F0 /* EmailVerificationInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationInteractorInput.swift; sourceTree = "<group>"; };
 		442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		4A51D1846CD2BE149D060667 /* SignUpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
 		4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.release.xcconfig"; sourceTree = "<group>"; };
 		4E7041CF1DB536697C911A96 /* StartupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupPresenter.swift; sourceTree = "<group>"; };
+		52F3D8878F779EA16AD393EE /* EmailVerificationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationPresenter.swift; sourceTree = "<group>"; };
 		573EE6456F76909225E9C3A1 /* StartupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupRouter.swift; sourceTree = "<group>"; };
 		5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorInput.swift; sourceTree = "<group>"; };
 		5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewOutput.swift; sourceTree = "<group>"; };
@@ -71,6 +85,7 @@
 		68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewInput.swift; sourceTree = "<group>"; };
 		79E99F89737A82ED6A068F33 /* SignUpInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorOutput.swift; sourceTree = "<group>"; };
+		87957BFD5035BBCD8426BFEA /* EmailVerificationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationRouter.swift; sourceTree = "<group>"; };
 		8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.debug.xcconfig"; sourceTree = "<group>"; };
 		8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorOutput.swift; sourceTree = "<group>"; };
 		931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorOutput.swift; sourceTree = "<group>"; };
@@ -79,7 +94,12 @@
 		A17735A43AC735A63BF4E06F /* SignUpRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpRouterInput.swift; sourceTree = "<group>"; };
 		A63C073DB7FA8B7764535260 /* SignUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ACA18EB5968F96424716CA00 /* SignInRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		B37D00E6FA2EBB04C16339E8 /* EmailVerificationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationInteractorOutput.swift; sourceTree = "<group>"; };
 		B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		C1311C86ECD0A2AC14D1B689 /* EmailVerificationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewOutput.swift; sourceTree = "<group>"; };
+		C422FD00FC4E1D79D8774440 /* EmailVerificationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationInteractor.swift; sourceTree = "<group>"; };
+		C57A005300B723DBE2AB5BBA /* EmailVerificationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewInput.swift; sourceTree = "<group>"; };
+		CB4758CBF424F750A776B081 /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
 		D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouterInput.swift; sourceTree = "<group>"; };
 		DF3C89EB1DB5403800AA0187 /* BorisatCoupon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BorisatCoupon.entitlements; sourceTree = "<group>"; };
 		DF3C89EC1DB6714E00AA0187 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -179,6 +199,16 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		30B3B8E58DE058BB1013F6C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				43213D7FAD30F715D63261F0 /* EmailVerificationInteractorInput.swift */,
+				B37D00E6FA2EBB04C16339E8 /* EmailVerificationInteractorOutput.swift */,
+				C422FD00FC4E1D79D8774440 /* EmailVerificationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		3C188284CB929FF0A3C20ABB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +235,14 @@
 			isa = PBXGroup;
 			children = (
 				EF3B4F612A92D833ACCA7F68 /* SignUpStoryboardConfigurator.swift */,
+			);
+			path = StoryboardConfigurator;
+			sourceTree = "<group>";
+		};
+		57DFA80828BBF1669A1F65DA /* StoryboardConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				2C49D7AE035D6A7BF609BCE9 /* EmailVerificationStoryboardConfigurator.swift */,
 			);
 			path = StoryboardConfigurator;
 			sourceTree = "<group>";
@@ -243,6 +281,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		817F6C24DB40158CA2E63064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C57A005300B723DBE2AB5BBA /* EmailVerificationViewInput.swift */,
+				C1311C86ECD0A2AC14D1B689 /* EmailVerificationViewOutput.swift */,
+				CB4758CBF424F750A776B081 /* EmailVerificationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8651275A87885E088FEB00D0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +306,7 @@
 				00536AAA849750FA9E99F39B /* SignIn */,
 				0B41718858641D0FF514B7ED /* SignUp */,
 				5002B083CAB1963EC0F55D4F /* Startup */,
+				B2FE4A679E74DE16A0532F03 /* EmailVerification */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -281,6 +330,18 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		B2FE4A679E74DE16A0532F03 /* EmailVerification */ = {
+			isa = PBXGroup;
+			children = (
+				57DFA80828BBF1669A1F65DA /* StoryboardConfigurator */,
+				30B3B8E58DE058BB1013F6C4 /* Interactor */,
+				D18FD2D5023237605D07F812 /* Presenter */,
+				FE7E2E4EBEB87C651DAEB820 /* Router */,
+				817F6C24DB40158CA2E63064 /* View */,
+			);
+			path = EmailVerification;
+			sourceTree = "<group>";
+		};
 		B620E34321C9F8E5F7D742D9 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +360,14 @@
 				3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D18FD2D5023237605D07F812 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D8878F779EA16AD393EE /* EmailVerificationPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		DF584AE91DB3771E00479224 = {
@@ -625,6 +694,15 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		FE7E2E4EBEB87C651DAEB820 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				138125A49CE582973EB03929 /* EmailVerificationRouterInput.swift */,
+				87957BFD5035BBCD8426BFEA /* EmailVerificationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -791,6 +869,16 @@
 				E9D584FED0431ED263E03F79 /* StartupViewInput.swift in Sources */,
 				1747B41011548AF06EAEF0CE /* StartupViewOutput.swift in Sources */,
 				86A60567E1F24B1A31BEE02F /* StartupViewController.swift in Sources */,
+				0EB68398726FD1D191EEE9E2 /* EmailVerificationStoryboardConfigurator.swift in Sources */,
+				9262D6E00B2BB230E3BB2D3B /* EmailVerificationInteractorInput.swift in Sources */,
+				FECA052ADF57C1F9CF11CF81 /* EmailVerificationInteractorOutput.swift in Sources */,
+				C4FA39B9A8DEA7EA34C1C747 /* EmailVerificationInteractor.swift in Sources */,
+				E8D8AE9ED51C87A24080D0AF /* EmailVerificationPresenter.swift in Sources */,
+				E33A593A790B172594F82B58 /* EmailVerificationRouterInput.swift in Sources */,
+				60173A3BDD95A10B18672DD8 /* EmailVerificationRouter.swift in Sources */,
+				694EF907143B3B0DF009BBD4 /* EmailVerificationViewInput.swift in Sources */,
+				9464FD33027D43D48BF0CD16 /* EmailVerificationViewOutput.swift in Sources */,
+				2943EDA9E59B2A8994C2A39F /* EmailVerificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

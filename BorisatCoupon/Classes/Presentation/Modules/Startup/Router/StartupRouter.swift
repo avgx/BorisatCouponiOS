@@ -16,7 +16,7 @@ class StartupRouter: StartupRouterInput {
     }
     
     func navigateToEmailVerification() {
-        
+        viewController.performSegue(withIdentifier: Storyboard.Main.Startup.Segues.EmailVerification, sender: nil)
     }
     
     func navigateToLogin() {

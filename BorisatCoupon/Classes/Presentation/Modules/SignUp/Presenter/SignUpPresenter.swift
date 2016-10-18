@@ -30,6 +30,6 @@ class SignUpPresenter: SignUpViewOutput, SignUpInteractorOutput {
     }
     
     func signUpDidSuccess() {
-        
+        router.navigateToEmailVerification()
     }
 }

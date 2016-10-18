@@ -8,7 +8,7 @@
 
 enum Storyboard {
     enum Main {
-            enum Identifiers {
+        enum Identifiers {
             static let AuthFlow = "LoginFlowInitial"
             static let MainFlow = "MainFlowInitial"
         }
@@ -17,6 +17,26 @@ enum Storyboard {
             enum Segues {
                 static let MainFlow = "MainFlow"
                 static let LoginFlow = "LoginFlow"
+                
+                static let EmailVerification = "EmailVerification"
+            }
+        }
+        
+        enum SignUp {
+            enum Segues {
+                static let EmailVerification = "EmailVerification"
+            }
+        }
+        
+        enum SignIn {
+            enum Segues {
+                static let EmailVerification = "EmailVerification"
+            }
+        }
+        
+        enum EmailVerification {
+            enum Segues {
+                static let MainFlow = "MainFlow"
             }
         }
     }

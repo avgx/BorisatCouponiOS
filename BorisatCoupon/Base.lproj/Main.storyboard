@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x7I-60-Igm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1161" y="376"/>
+            <point key="canvasLocation" x="-2204" y="-73"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="8p8-9E-9Lf">
@@ -39,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tKm-uQ-vIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="1731"/>
+            <point key="canvasLocation" x="-1249" y="2581"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="Ca3-E4-6Xh">
@@ -58,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfM-gt-WcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="1079"/>
+            <point key="canvasLocation" x="-1249" y="1929"/>
         </scene>
         <!--StartupViewController-->
         <scene sceneID="uXE-aH-eor">
@@ -76,6 +77,7 @@
                     <connections>
                         <segue destination="hdk-hk-FTY" kind="custom" identifier="LoginFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" animates="NO" id="gjA-Wa-zbr"/>
                         <segue destination="B53-Pn-ybn" kind="custom" identifier="MainFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" animates="NO" id="KVt-uG-6y1"/>
+                        <segue destination="jaV-6c-Isg" kind="custom" identifier="EmailVerification" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="tLs-st-Qfm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Vg-mP-Xhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -103,7 +105,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmY-Yo-gaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1001" y="1405"/>
+            <point key="canvasLocation" x="-2204" y="2256"/>
         </scene>
         <!--SignUpViewController-->
         <scene sceneID="CzS-Lw-eQH">
@@ -274,6 +276,7 @@
                         <outlet property="nameTextField" destination="yKm-LG-Gyw" id="ZbC-CZ-udU"/>
                         <outlet property="passwordTextField" destination="F2C-pd-Px3" id="ane-B5-Uxg"/>
                         <outlet property="signupButton" destination="4e9-Vw-9NG" id="0Qi-rX-K8S"/>
+                        <segue destination="jaV-6c-Isg" kind="custom" identifier="EmailVerification" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="hWb-qS-bEo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ff-lE-8uo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -288,7 +291,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-383.19999999999999" y="-9.4452773613193415"/>
+            <point key="canvasLocation" x="-1316" y="-73"/>
         </scene>
         <!--SignInViewController-->
         <scene sceneID="4Mb-gS-NFq">
@@ -403,6 +406,7 @@
                         <outlet property="emailTextField" destination="bNW-4e-hvh" id="Yf7-oI-msc"/>
                         <outlet property="passwordTextField" destination="xIY-Hy-2NI" id="uwL-Td-zSh"/>
                         <outlet property="signInButton" destination="Ip3-dS-MJf" id="Ekp-p6-Hby"/>
+                        <segue destination="jaV-6c-Isg" kind="custom" identifier="EmailVerification" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="pOf-mX-S7J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSc-fJ-LGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -412,7 +416,67 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="470" y="-9"/>
+            <point key="canvasLocation" x="-378" y="-73"/>
+        </scene>
+        <!--EmailVerificationViewController-->
+        <scene sceneID="bGe-Qp-Quu">
+            <objects>
+                <viewController id="jaV-6c-Isg" userLabel="EmailVerificationViewController" customClass="EmailVerificationViewController" customModule="BorisatCoupon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cud-n4-Zva"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Vj-Lw-3z3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mvt-fN-Btb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are waiting for e-mail verification, please check your company email inbox " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOj-Gt-VvF">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoW-HG-7Ek">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="Resend e-mail again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGo-t6-t6M">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CoW-HG-7Ek" firstAttribute="width" secondItem="dGo-t6-t6M" secondAttribute="width" id="16S-uP-LUC"/>
+                            <constraint firstItem="dGo-t6-t6M" firstAttribute="centerX" secondItem="Mvt-fN-Btb" secondAttribute="centerX" id="Ef4-0e-RMR"/>
+                            <constraint firstItem="aOj-Gt-VvF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Mvt-fN-Btb" secondAttribute="leadingMargin" id="G4d-6v-mbl"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="aOj-Gt-VvF" secondAttribute="trailing" id="IoQ-15-vlT"/>
+                            <constraint firstItem="aOj-Gt-VvF" firstAttribute="centerY" secondItem="Mvt-fN-Btb" secondAttribute="centerY" id="QlA-Ks-h5V"/>
+                            <constraint firstItem="4Vj-Lw-3z3" firstAttribute="top" secondItem="dGo-t6-t6M" secondAttribute="bottom" constant="40" id="SQb-PO-3i6"/>
+                            <constraint firstItem="CoW-HG-7Ek" firstAttribute="centerX" secondItem="Mvt-fN-Btb" secondAttribute="centerX" id="UGu-0z-znG"/>
+                            <constraint firstItem="dGo-t6-t6M" firstAttribute="top" secondItem="CoW-HG-7Ek" secondAttribute="bottom" constant="4" id="X3d-oe-C3f"/>
+                            <constraint firstItem="aOj-Gt-VvF" firstAttribute="centerX" secondItem="Mvt-fN-Btb" secondAttribute="centerX" id="ePY-ek-lLy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="B53-Pn-ybn" kind="custom" identifier="MainFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="427-1n-FGp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8L-BS-cXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="DDn-dq-lCQ" customClass="EmailVerificationModuleConfigurator" customModule="BorisatCoupon" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="jaV-6c-Isg" id="M10-wQ-Caw"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-823" y="878"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="427-1n-FGp"/>
+        <segue reference="pOf-mX-S7J"/>
+    </inferredMetricsTieBreakers>
 </document>

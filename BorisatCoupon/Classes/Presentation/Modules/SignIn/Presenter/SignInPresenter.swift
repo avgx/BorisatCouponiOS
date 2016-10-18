@@ -31,7 +31,7 @@ class SignInPresenter: SignInViewOutput, SignInInteractorOutput {
     }
     
     func signInDidSuccess() {
-        print("signInDidSuccess")
+        router.navigateToEmailVerification()
     }
     
 }

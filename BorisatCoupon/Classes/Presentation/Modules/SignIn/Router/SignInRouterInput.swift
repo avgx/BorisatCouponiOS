@@ -9,5 +9,5 @@
 import Foundation
 
 protocol SignInRouterInput: class {
-
+    func navigateToEmailVerification()
 }
