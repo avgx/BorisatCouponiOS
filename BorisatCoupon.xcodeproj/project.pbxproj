@@ -14,21 +14,27 @@
 		0EB68398726FD1D191EEE9E2 /* EmailVerificationStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C49D7AE035D6A7BF609BCE9 /* EmailVerificationStoryboardConfigurator.swift */; };
 		11941CE955DB9F176FB4D481 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409B3CB58DDA1CDDAF3AEC2 /* SignUpInteractor.swift */; };
 		1747B41011548AF06EAEF0CE /* StartupViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */; };
+		26EDFCB21230F4C8E390F100 /* CouponsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A0FD68BA00468639E18035 /* CouponsListViewController.swift */; };
 		2943EDA9E59B2A8994C2A39F /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4758CBF424F750A776B081 /* EmailVerificationViewController.swift */; };
+		2F26A0A54310C74B0D8C319E /* CouponsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8FAEA367980F1E9B0C0B3 /* CouponsListPresenter.swift */; };
 		378F780789CF74FCD6E8D1D4 /* Pods_BorisatCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */; };
 		412C3DABF07607B6ACAA99E6 /* StartupStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B51EC679C94D7643A7813 /* StartupStoryboardConfigurator.swift */; };
 		4E6472FA3FB4767CA85619F9 /* StartupInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */; };
 		562B1E3BCD57DAFE86ED6ACE /* StartupRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D818104E9E0C083284270 /* StartupRouterInput.swift */; };
 		5CC4DF1ED8E68876AD885228 /* SignUpRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17735A43AC735A63BF4E06F /* SignUpRouterInput.swift */; };
+		5D73536D33E40FDE71D3D276 /* CouponsListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C27706C907CF1C39631E02 /* CouponsListInteractorOutput.swift */; };
 		60173A3BDD95A10B18672DD8 /* EmailVerificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87957BFD5035BBCD8426BFEA /* EmailVerificationRouter.swift */; };
 		637F3E495DFDECC1B803F491 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63C073DB7FA8B7764535260 /* SignUpViewController.swift */; };
 		674BD26C6DD09266C681CFE2 /* StartupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EE6456F76909225E9C3A1 /* StartupRouter.swift */; };
+		685A70D5C9B8287DF75C7A7C /* CouponsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0107AC80A9799B2A52B3209 /* CouponsListRouter.swift */; };
 		694EF907143B3B0DF009BBD4 /* EmailVerificationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57A005300B723DBE2AB5BBA /* EmailVerificationViewInput.swift */; };
 		6F94E467FFB8B2AC694D49EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA18EB5968F96424716CA00 /* SignInRouter.swift */; };
+		73EC09A3C33B5A597F5F14BD /* CouponsListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938BD415D5F5EE3D5AFCA83 /* CouponsListViewOutput.swift */; };
 		75BDD9A520E413642ED878FC /* StartupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907C3074FC9920260537DB /* StartupInteractor.swift */; };
 		793FB23617D6EB95E88E0A29 /* StartupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7041CF1DB536697C911A96 /* StartupPresenter.swift */; };
 		8248836437BC8C7A31BE1F7E /* SignInRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */; };
 		86A60567E1F24B1A31BEE02F /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */; };
+		86E5B5151BBF089262868D4F /* CouponsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5647F235B483D9E1D18CDCEC /* CouponsListInteractor.swift */; };
 		925648AA5EB53E4722DBABC1 /* SignInStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */; };
 		9262D6E00B2BB230E3BB2D3B /* EmailVerificationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43213D7FAD30F715D63261F0 /* EmailVerificationInteractorInput.swift */; };
 		9464FD33027D43D48BF0CD16 /* EmailVerificationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1311C86ECD0A2AC14D1B689 /* EmailVerificationViewOutput.swift */; };
@@ -38,7 +44,10 @@
 		9F5CF64938DC1FC37591FFF5 /* SignUpViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4A846FDC1B1BA8BA34FB8 /* SignUpViewOutput.swift */; };
 		A1BB25E1CAAD268B83E85FEA /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */; };
 		C1DB47A792BFC0F06B102F4A /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */; };
+		C38F4C27A9CDD9332B69DA83 /* CouponsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D590728C5732BC559A1189 /* CouponsListInteractorInput.swift */; };
 		C4FA39B9A8DEA7EA34C1C747 /* EmailVerificationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422FD00FC4E1D79D8774440 /* EmailVerificationInteractor.swift */; };
+		C6B90A93B829D55EB41D46C5 /* CouponsListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2285E56B657844719F7B77 /* CouponsListRouterInput.swift */; };
+		CD3F7B221C9288E6B2557ACB /* CouponsListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC4EC5FE0A74254EDCD66A /* CouponsListViewInput.swift */; };
 		DF3C89ED1DB6714E00AA0187 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EC1DB6714E00AA0187 /* Constants.swift */; };
 		DF3C89EF1DB6733300AA0187 /* RootWindowSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C89EE1DB6733300AA0187 /* RootWindowSegue.swift */; };
 		DF584AFD1DB3771E00479224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF584AFB1DB3771E00479224 /* Main.storyboard */; };
@@ -55,6 +64,7 @@
 		E9D584FED0431ED263E03F79 /* StartupViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */; };
 		E9F681F76CC3470B5CCAF2BA /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */; };
 		EA0DBD5F794720FABE85D636 /* StartupInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */; };
+		EB6ED8937F0CFF3226F77BD4 /* CouponsListStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC2BFE996D476C0AD84DAA /* CouponsListStoryboardConfigurator.swift */; };
 		ED471DC4130E381EBA0CE85D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */; };
 		F07166551890BB4204CC290B /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */; };
 		FECA052ADF57C1F9CF11CF81 /* EmailVerificationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D00E6FA2EBB04C16339E8 /* EmailVerificationInteractorOutput.swift */; };
@@ -62,6 +72,8 @@
 
 /* Begin PBXFileReference section */
 		02C4A846FDC1B1BA8BA34FB8 /* SignUpViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewOutput.swift; sourceTree = "<group>"; };
+		07A0FD68BA00468639E18035 /* CouponsListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListViewController.swift; sourceTree = "<group>"; };
+		0ABC2BFE996D476C0AD84DAA /* CouponsListStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		0CACCE92C01A76C9C964BAA8 /* SignInInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorInput.swift; sourceTree = "<group>"; };
 		0EF1478C1CC7C0BB3EB62A68 /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
 		11907C3074FC9920260537DB /* StartupInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractor.swift; sourceTree = "<group>"; };
@@ -78,16 +90,20 @@
 		4CD26D98D8EDF158FBB39E85 /* Pods-BorisatCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.release.xcconfig"; sourceTree = "<group>"; };
 		4E7041CF1DB536697C911A96 /* StartupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupPresenter.swift; sourceTree = "<group>"; };
 		52F3D8878F779EA16AD393EE /* EmailVerificationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationPresenter.swift; sourceTree = "<group>"; };
+		5647F235B483D9E1D18CDCEC /* CouponsListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListInteractor.swift; sourceTree = "<group>"; };
 		573EE6456F76909225E9C3A1 /* StartupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupRouter.swift; sourceTree = "<group>"; };
+		59B8FAEA367980F1E9B0C0B3 /* CouponsListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListPresenter.swift; sourceTree = "<group>"; };
 		5BF8C61DA092DB123B17EA0B /* StartupInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorInput.swift; sourceTree = "<group>"; };
 		5F43C5F785856FEF816A6BA4 /* StartupViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewOutput.swift; sourceTree = "<group>"; };
 		64CFA77687AC9EF5C64964E6 /* SignUpViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewInput.swift; sourceTree = "<group>"; };
 		68E828453883DEAF86E589ED /* SignInStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		697B925FD67953FBE0CF3C5A /* StartupViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewInput.swift; sourceTree = "<group>"; };
+		78CC4EC5FE0A74254EDCD66A /* CouponsListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListViewInput.swift; sourceTree = "<group>"; };
 		79E99F89737A82ED6A068F33 /* SignUpInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorOutput.swift; sourceTree = "<group>"; };
 		87957BFD5035BBCD8426BFEA /* EmailVerificationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationRouter.swift; sourceTree = "<group>"; };
 		8823C39C62D18ED46B0F1B78 /* Pods-BorisatCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorisatCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorisatCoupon/Pods-BorisatCoupon.debug.xcconfig"; sourceTree = "<group>"; };
 		8959B15AA5F6904FA408561E /* StartupInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupInteractorOutput.swift; sourceTree = "<group>"; };
+		89D590728C5732BC559A1189 /* CouponsListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListInteractorInput.swift; sourceTree = "<group>"; };
 		931AB6A9729E48CCF70951B5 /* SignInInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorOutput.swift; sourceTree = "<group>"; };
 		955C3A23D7F23D7DE41DD453 /* SignInViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9C7C6D648D4A33CB4F9C051E /* StartupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +115,10 @@
 		C1311C86ECD0A2AC14D1B689 /* EmailVerificationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewOutput.swift; sourceTree = "<group>"; };
 		C422FD00FC4E1D79D8774440 /* EmailVerificationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationInteractor.swift; sourceTree = "<group>"; };
 		C57A005300B723DBE2AB5BBA /* EmailVerificationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewInput.swift; sourceTree = "<group>"; };
+		C938BD415D5F5EE3D5AFCA83 /* CouponsListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListViewOutput.swift; sourceTree = "<group>"; };
+		CA2285E56B657844719F7B77 /* CouponsListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListRouterInput.swift; sourceTree = "<group>"; };
 		CB4758CBF424F750A776B081 /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
+		D0107AC80A9799B2A52B3209 /* CouponsListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListRouter.swift; sourceTree = "<group>"; };
 		D9CB7395C48BEAC12F5B346F /* SignInRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInRouterInput.swift; sourceTree = "<group>"; };
 		DF3C89EB1DB5403800AA0187 /* BorisatCoupon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BorisatCoupon.entitlements; sourceTree = "<group>"; };
 		DF3C89EC1DB6714E00AA0187 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -142,6 +161,7 @@
 		DF584C9E1DB3B16800479224 /* view_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_tests.swift.liquid; sourceTree = "<group>"; };
 		DF615C4A1DB5347E0014EB1B /* ErrorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
 		EF3B4F612A92D833ACCA7F68 /* SignUpStoryboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpStoryboardConfigurator.swift; sourceTree = "<group>"; };
+		F4C27706C907CF1C39631E02 /* CouponsListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponsListInteractorOutput.swift; sourceTree = "<group>"; };
 		F6C57004CF55A1C40B75FC12 /* Pods_BorisatCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorisatCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C291C3D46FCC7E28D671D8 /* SignUpPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +237,16 @@
 				A63C073DB7FA8B7764535260 /* SignUpViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		47ED33F2153533B34FAB39ED /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89D590728C5732BC559A1189 /* CouponsListInteractorInput.swift */,
+				F4C27706C907CF1C39631E02 /* CouponsListInteractorOutput.swift */,
+				5647F235B483D9E1D18CDCEC /* CouponsListInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		5002B083CAB1963EC0F55D4F /* Startup */ = {
@@ -307,6 +337,7 @@
 				0B41718858641D0FF514B7ED /* SignUp */,
 				5002B083CAB1963EC0F55D4F /* Startup */,
 				B2FE4A679E74DE16A0532F03 /* EmailVerification */,
+				F6EB197EBB1691AA88B2BDDB /* CouponsList */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -342,6 +373,16 @@
 			path = EmailVerification;
 			sourceTree = "<group>";
 		};
+		B45F5A06FCF98FADB8191AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78CC4EC5FE0A74254EDCD66A /* CouponsListViewInput.swift */,
+				C938BD415D5F5EE3D5AFCA83 /* CouponsListViewOutput.swift */,
+				07A0FD68BA00468639E18035 /* CouponsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B620E34321C9F8E5F7D742D9 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +401,14 @@
 				3A24A6F0878C0F7C3E3C508A /* SignInInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CC6D6637E0422188573C9687 /* StoryboardConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC2BFE996D476C0AD84DAA /* CouponsListStoryboardConfigurator.swift */,
+			);
+			path = StoryboardConfigurator;
 			sourceTree = "<group>";
 		};
 		D18FD2D5023237605D07F812 /* Presenter */ = {
@@ -669,6 +718,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E8E36EC19845E2CC55638BFD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59B8FAEA367980F1E9B0C0B3 /* CouponsListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EA739F8F06FDB0BCF9706A77 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CA2285E56B657844719F7B77 /* CouponsListRouterInput.swift */,
+				D0107AC80A9799B2A52B3209 /* CouponsListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		F6026716F81B4AA99C7A8910 /* StoryboardConfigurator */ = {
 			isa = PBXGroup;
 			children = (
@@ -683,6 +749,18 @@
 				B81C50FC156D6E1CBEC8FBF0 /* SignInPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F6EB197EBB1691AA88B2BDDB /* CouponsList */ = {
+			isa = PBXGroup;
+			children = (
+				CC6D6637E0422188573C9687 /* StoryboardConfigurator */,
+				47ED33F2153533B34FAB39ED /* Interactor */,
+				E8E36EC19845E2CC55638BFD /* Presenter */,
+				EA739F8F06FDB0BCF9706A77 /* Router */,
+				B45F5A06FCF98FADB8191AE5 /* View */,
+			);
+			path = CouponsList;
 			sourceTree = "<group>";
 		};
 		F7F127EA9DFE3F6653492C06 /* Router */ = {
@@ -879,6 +957,16 @@
 				694EF907143B3B0DF009BBD4 /* EmailVerificationViewInput.swift in Sources */,
 				9464FD33027D43D48BF0CD16 /* EmailVerificationViewOutput.swift in Sources */,
 				2943EDA9E59B2A8994C2A39F /* EmailVerificationViewController.swift in Sources */,
+				EB6ED8937F0CFF3226F77BD4 /* CouponsListStoryboardConfigurator.swift in Sources */,
+				C38F4C27A9CDD9332B69DA83 /* CouponsListInteractorInput.swift in Sources */,
+				5D73536D33E40FDE71D3D276 /* CouponsListInteractorOutput.swift in Sources */,
+				86E5B5151BBF089262868D4F /* CouponsListInteractor.swift in Sources */,
+				2F26A0A54310C74B0D8C319E /* CouponsListPresenter.swift in Sources */,
+				C6B90A93B829D55EB41D46C5 /* CouponsListRouterInput.swift in Sources */,
+				685A70D5C9B8287DF75C7A7C /* CouponsListRouter.swift in Sources */,
+				CD3F7B221C9288E6B2557ACB /* CouponsListViewInput.swift in Sources */,
+				73EC09A3C33B5A597F5F14BD /* CouponsListViewOutput.swift in Sources */,
+				26EDFCB21230F4C8E390F100 /* CouponsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

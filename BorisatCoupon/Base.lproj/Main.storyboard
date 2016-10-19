@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="-1249" y="2581"/>
         </scene>
-        <!--Item 1-->
+        <!--CouponsListViewController-->
         <scene sceneID="Ca3-E4-6Xh">
             <objects>
-                <viewController id="IOe-uk-KdC" sceneMemberID="viewController">
+                <viewController id="IOe-uk-KdC" userLabel="CouponsListViewController" customClass="CouponsListViewController" customModule="BorisatCoupon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yuj-Di-fux"/>
                         <viewControllerLayoutGuide type="bottom" id="m13-ft-aKg"/>
@@ -53,11 +53,31 @@
                     <view key="view" contentMode="scaleToFill" id="AZy-5m-eBc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmw-tI-i7i">
+                                <state key="normal" title="LOGOUT"/>
+                                <connections>
+                                    <action selector="logoutButtonDidTap:" destination="IOe-uk-KdC" eventType="touchUpInside" id="WAv-7v-jLX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mmw-tI-i7i" firstAttribute="top" secondItem="yuj-Di-fux" secondAttribute="bottom" id="CWp-n9-oko"/>
+                            <constraint firstItem="Mmw-tI-i7i" firstAttribute="leading" secondItem="AZy-5m-eBc" secondAttribute="leadingMargin" id="uHa-Ek-4yA"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Z2m-4g-pCe"/>
+                    <connections>
+                        <segue destination="2ge-Jy-dGm" kind="custom" identifier="Startup" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="fpb-Di-D4m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfM-gt-WcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="6LT-g7-ikm" customClass="CouponsListModuleConfigurator" customModule="BorisatCoupon" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="IOe-uk-KdC" id="932-7L-ppc"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-1249" y="1929"/>
         </scene>
