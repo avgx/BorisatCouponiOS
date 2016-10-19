@@ -14,7 +14,7 @@ class SignInRouter: SignInRouterInput {
     }
     
     func navigateToCoupons() {
-        viewController.performSegue(withIdentifier: Storyboard.Main.Startup.Segues.MainFlow, sender: nil)
+        viewController.performSegue(withIdentifier: Storyboard.Main.SignIn.Segues.MainFlow, sender: nil)
     }
     
 }

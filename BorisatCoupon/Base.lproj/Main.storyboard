@@ -435,6 +435,7 @@
                         <outlet property="passwordTextField" destination="xIY-Hy-2NI" id="uwL-Td-zSh"/>
                         <outlet property="signInButton" destination="Ip3-dS-MJf" id="Ekp-p6-Hby"/>
                         <segue destination="jaV-6c-Isg" kind="custom" identifier="EmailVerification" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="pOf-mX-S7J"/>
+                        <segue destination="B53-Pn-ybn" kind="custom" identifier="MainFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="2Ea-kn-KxI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSc-fJ-LGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -511,8 +512,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="427-1n-FGp"/>
-        <segue reference="hWb-qS-bEo"/>
+        <segue reference="2Ea-kn-KxI"/>
         <segue reference="WUu-18-FlH"/>
+        <segue reference="pOf-mX-S7J"/>
     </inferredMetricsTieBreakers>
 </document>
