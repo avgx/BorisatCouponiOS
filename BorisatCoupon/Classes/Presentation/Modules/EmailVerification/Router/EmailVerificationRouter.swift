@@ -8,4 +8,12 @@
 
 class EmailVerificationRouter: EmailVerificationRouterInput {
     weak var viewController: EmailVerificationViewController!
+    
+    func navigateToCoupons() {
+        viewController.performSegue(withIdentifier: Storyboard.Main.EmailVerification.Segues.MainFlow, sender: nil)
+    }
+    
+    func navigateToLogin() {
+        viewController.performSegue(withIdentifier: Storyboard.Main.EmailVerification.Segues.LoginFlow, sender: nil)
+    }
 }

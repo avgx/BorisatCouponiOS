@@ -15,9 +15,21 @@ class EmailVerificationPresenter: EmailVerificationViewOutput, EmailVerification
     // MARK: EmailVerificationViewOutput
 
     func viewIsReady() {
-
+        interactor.checkStatus()
     }
-
+    
+    func logoutButtonDidTap() {
+        interactor.logout()
+        router.navigateToLogin()
+    }
+    
+    func resendButtonDidTap() {
+        interactor.verifyEmail()
+    }
+    
     // MARK: EmailVerificationInteractorOutput
     
+    func emailDidVerified() {
+        router.navigateToCoupons()
+    }
 }

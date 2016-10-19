@@ -36,6 +36,7 @@ enum Storyboard {
         
         enum EmailVerification {
             enum Segues {
+                static let LoginFlow = "LoginFlow"
                 static let MainFlow = "MainFlow"
             }
         }

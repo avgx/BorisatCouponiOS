@@ -9,5 +9,6 @@
 import Foundation
 
 protocol EmailVerificationRouterInput: class {
-
+    func navigateToCoupons()
+    func navigateToLogin()
 }

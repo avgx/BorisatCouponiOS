@@ -9,16 +9,20 @@
 import FirebaseAuth
 
 class SignInInteractor: SignInInteractorInput {
-
+    
     weak var output: SignInInteractorOutput!
-
-    final func signIn(withEmail email: String, password: String) {
+    
+    func signIn(withEmail email: String, password: String) {
         FIRAuth.auth()?.signIn(withEmail: email, password: password) { [weak output] (user, error) in
             if let error = error {
                 output?.signInDidFail(withError: error)
-            } else {
+            } else if user?.isEmailVerified == true {
                 output?.signInDidSuccess()
+            } else if user?.isEmailVerified == false {
+                output?.emailVerificationNeeded()
             }
         }
     }
+    
+    
 }

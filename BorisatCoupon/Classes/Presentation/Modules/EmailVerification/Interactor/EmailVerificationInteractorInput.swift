@@ -9,5 +9,7 @@
 import Foundation
 
 protocol EmailVerificationInteractorInput: class {
-
+    func checkStatus()
+    func verifyEmail()
+    func logout()
 }

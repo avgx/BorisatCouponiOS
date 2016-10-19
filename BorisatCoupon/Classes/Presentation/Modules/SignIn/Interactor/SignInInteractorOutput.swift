@@ -10,5 +10,6 @@ import Foundation
 
 protocol SignInInteractorOutput: class {
     func signInDidSuccess()
+    func emailVerificationNeeded()
     func signInDidFail(withError error: Error)
 }

@@ -21,7 +21,6 @@ class SignInPresenter: SignInViewOutput, SignInInteractorOutput {
     func signInButtonDidTap() {
         let input = view.getInput()
         interactor.signIn(withEmail: input.email, password: input.password)
-
     }
     
     // MARK: SignInInteractorOutput
@@ -31,7 +30,10 @@ class SignInPresenter: SignInViewOutput, SignInInteractorOutput {
     }
     
     func signInDidSuccess() {
-        router.navigateToEmailVerification()
+        router.navigateToCoupons()
     }
     
+    func emailVerificationNeeded() {
+        router.navigateToEmailVerification()
+    }
 }

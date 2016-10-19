@@ -9,5 +9,5 @@
 import Foundation
 
 protocol EmailVerificationInteractorOutput: class {
-
+    func emailDidVerified()
 }

@@ -7,7 +7,7 @@
 //
 
 protocol EmailVerificationViewOutput: class {
-
     func viewIsReady()
-
+    func resendButtonDidTap()
+    func logoutButtonDidTap()
 }

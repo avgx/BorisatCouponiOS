@@ -440,12 +440,18 @@
                                 <state key="normal" title="Resend e-mail again">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="resendButtonDidTap:" destination="jaV-6c-Isg" eventType="touchUpInside" id="oCm-Jy-2aF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGo-t6-t6M">
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <state key="normal" title="Logout">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="logoutButtonDidTap:" destination="jaV-6c-Isg" eventType="touchUpInside" id="Rr5-B5-tgQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -463,6 +469,7 @@
                     </view>
                     <connections>
                         <segue destination="B53-Pn-ybn" kind="custom" identifier="MainFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="427-1n-FGp"/>
+                        <segue destination="hdk-hk-FTY" kind="custom" identifier="LoginFlow" customClass="RootWindowSegue" customModule="BorisatCoupon" customModuleProvider="target" id="WUu-18-FlH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O8L-BS-cXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -477,6 +484,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="427-1n-FGp"/>
-        <segue reference="pOf-mX-S7J"/>
+        <segue reference="hWb-qS-bEo"/>
+        <segue reference="WUu-18-FlH"/>
     </inferredMetricsTieBreakers>
 </document>

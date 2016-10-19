@@ -22,4 +22,13 @@ class EmailVerificationViewController: UIViewController, EmailVerificationViewIn
 
     // MARK: EmailVerificationViewInput
 
+    // MARK: User's events
+    
+    @IBAction func resendButtonDidTap(_ sender: AnyObject) {
+        output.resendButtonDidTap()
+    }
+    
+    @IBAction func logoutButtonDidTap(_ sender: AnyObject) {
+        output.logoutButtonDidTap()
+    }
 }

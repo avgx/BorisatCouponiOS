@@ -17,13 +17,15 @@ class StartupPresenter: StartupViewOutput, StartupInteractorOutput {
     // MARK: StartupViewOutput
     
     func viewIsReady() {
-        let user = FIRAuth.auth()?.currentUser
-        switch (user) {
-        case (let user) where user?.isEmailVerified == true:
-            router.navigateToCoupons()
-        case (let user) where user?.isEmailVerified == false:
-            router.navigateToEmailVerification()
-        default:
+        if let user = FIRAuth.auth()?.currentUser {
+            user.reload { _ in
+                if user.isEmailVerified {
+                    self.router.navigateToCoupons()
+                } else {
+                    self.router.navigateToEmailVerification()
+                }
+            }
+        } else {
             router.navigateToLogin()
         }
     }

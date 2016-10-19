@@ -12,4 +12,9 @@ class SignInRouter: SignInRouterInput {
     func navigateToEmailVerification() {
         viewController.performSegue(withIdentifier: Storyboard.Main.SignIn.Segues.EmailVerification, sender: nil)
     }
+    
+    func navigateToCoupons() {
+        viewController.performSegue(withIdentifier: Storyboard.Main.Startup.Segues.MainFlow, sender: nil)
+    }
+    
 }

@@ -14,10 +14,6 @@ class StartupViewController: UIViewController, StartupViewInput {
 
     // MARK: Life cycle
     
-    deinit {
-        print("StartupViewController")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
