@@ -60,11 +60,19 @@
                                     <action selector="logoutButtonDidTap:" destination="IOe-uk-KdC" eventType="touchUpInside" id="WAv-7v-jLX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-1T-y2M">
+                                <state key="normal" title="Delete user"/>
+                                <connections>
+                                    <action selector="deleteUserButtonDidTap:" destination="IOe-uk-KdC" eventType="touchUpInside" id="cIr-Ue-bVd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="xlf-1T-y2M" firstAttribute="leading" secondItem="AZy-5m-eBc" secondAttribute="leadingMargin" id="A0c-EA-1o1"/>
                             <constraint firstItem="Mmw-tI-i7i" firstAttribute="top" secondItem="yuj-Di-fux" secondAttribute="bottom" id="CWp-n9-oko"/>
                             <constraint firstItem="Mmw-tI-i7i" firstAttribute="leading" secondItem="AZy-5m-eBc" secondAttribute="leadingMargin" id="uHa-Ek-4yA"/>
+                            <constraint firstItem="xlf-1T-y2M" firstAttribute="top" secondItem="Mmw-tI-i7i" secondAttribute="bottom" constant="8" id="zzH-ks-aZF"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Z2m-4g-pCe"/>

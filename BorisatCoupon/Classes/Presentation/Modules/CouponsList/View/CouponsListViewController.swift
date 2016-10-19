@@ -23,8 +23,22 @@ class CouponsListViewController: UIViewController, CouponsListViewInput {
 
     // MARK: CouponsListViewInput
 
+    // TODO: Remove
+    // for debugging
     @IBAction func logoutButtonDidTap(_ sender: AnyObject) {
         try! FIRAuth.auth()?.signOut()
         performSegue(withIdentifier: "Startup", sender: nil)
+    }
+    
+    // TODO: Remove
+    // for debugging
+    @IBAction func deleteUserButtonDidTap(_ sender: AnyObject) {
+        FIRAuth.auth()?.currentUser?.delete { error in
+            if let error = error {
+                self.show(error: error)
+            } else {
+                self.performSegue(withIdentifier: "Startup", sender: nil)
+            }
+        }
     }
 }

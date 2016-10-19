@@ -6,6 +6,6 @@
 //  Copyright © 2016 BorisatCoupon. All rights reserved.
 //
 
-protocol CouponsListViewInput: class {
+protocol CouponsListViewInput: class, ErrorPresenter {
 
 }
