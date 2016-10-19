@@ -19,6 +19,7 @@ class EmailVerificationInteractor: NSObject, EmailVerificationInteractorInput {
         if user.isEmailVerified == true{
             output.emailDidVerified()
         } else {
+            // TODO: Find better way. Does Firebase update automaticaly user's data?
             DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [weak self] in
                 user.reload { _ in
                     self?.checkStatus()
