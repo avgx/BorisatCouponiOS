@@ -15,9 +15,12 @@ class CouponsListPresenter: CouponsListViewOutput, CouponsListInteractorOutput {
     // MARK: CouponsListViewOutput
 
     func viewIsReady() {
-
+        interactor.fetchCoupons()
     }
 
     // MARK: CouponsListInteractorOutput
     
+    final func didUpdate(coupons: [Coupon]) {
+        print(coupons)
+    }
 }

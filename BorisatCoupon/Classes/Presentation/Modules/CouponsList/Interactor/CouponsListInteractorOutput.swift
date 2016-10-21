@@ -6,8 +6,8 @@
 //  Copyright © 2016 BorisatCoupon. All rights reserved.
 //
 
-import Foundation
+import FirebaseDatabase
 
 protocol CouponsListInteractorOutput: class {
-
+    func didUpdate(coupons: [Coupon])
 }

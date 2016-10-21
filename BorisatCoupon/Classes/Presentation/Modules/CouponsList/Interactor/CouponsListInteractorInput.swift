@@ -9,5 +9,5 @@
 import Foundation
 
 protocol CouponsListInteractorInput: class {
-
+    func fetchCoupons()
 }
