@@ -7,6 +7,7 @@
 //
 
 import FirebaseDatabase
+import SwiftyJSON
 
 fileprivate typealias FIRDataSnapshotHandler = ((FIRDataSnapshot) -> Void)
 
@@ -34,13 +35,13 @@ fileprivate func fetch(_ ref: FIRDatabaseReference, _ f: @escaping FIRDataSnapsh
 
 fileprivate func map(_ f: @escaping (([Coupon]) -> Void)) -> FIRDataSnapshotHandler {
     return { snapshot in
-        guard let json = snapshot.value as? [String: AnyObject] else { fatalError() }
+        let json = JSON(snapshot.value)
         
         var coupons = [Coupon]()
         
         for (couponId, couponJSON) in json {
-            let name = couponJSON["name"] as! String
-            let imageURL = URL(string: couponJSON["img_url"] as! String)!
+            guard let name = couponJSON["name"].string else { continue }
+            guard let imageURL = URL(string: couponJSON["img_url"].stringValue) else { continue }
             
             let coupon = Coupon(id: couponId, price: 200, name: name, imageAddress: imageURL)
             
